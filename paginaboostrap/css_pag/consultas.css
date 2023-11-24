@@ -1,0 +1,330 @@
+* {
+    /*todo esto es un pequeño reseteo por asi decirlo*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*para que todo el texto de la pagina sea arial*/
+    margin: 0;
+    /*ni es necesario mencionarlo*/
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /*no creo que sirva de mucho*/
+  }
+  
+  
+  
+  body {
+    background-color: #000000;
+    color: white;
+    /* color claro pero agradable*/
+  }
+  
+  /*header*/
+  
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    
+  
+  }
+  a:hover{
+    color: gold;
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+    margin-left: -20em;
+    margin-top: -60px;
+    list-style: none;
+    padding: 0 ;
+    margin-left: 50px;
+  }
+  
+  .menu li {
+    padding: 0 30px;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  .menu a {
+    text-decoration: none;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3333338b;
+    width: 170px;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .submenu li:hover {
+    background-color: #3333338b;
+  }
+  
+  /*fin submenu*/
+  /*redes sociales*/
+  .menu2 {
+    float: right;
+  }
+  
+  .menu2 img {
+    margin-top: -2.5em;
+    padding: 10px;
+  
+  }
+  
+  /*fin redes */
+  .logo {
+    margin-right: 50em;
+  }
+  
+  nav h1 a {
+    color: black;
+    font-size: 45px;
+  }
+  
+  nav .logo {
+    margin-left: -20em;
+  }
+  
+  nav .logo img {
+    width: 90px;
+    height: 80px;
+  }
+  
+  nav .logo img:hover {
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 1.2em;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  nav a:hover {
+    color: rgba(243, 212, 11, 0.788);
+  }
+  
+  .container_header {
+    display: flex;
+    max-width: 1400px;
+    height: 270px;
+  }
+  
+  /*fin header*/
+  
+  
+  /*consultas*/
+  .form_cont{
+    border: 2px solid gold;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .form_cont ul{
+    list-style-type: none;
+  }
+  .form_cont ul li{
+    padding: 15px;
+  }
+  .form_cont input{
+    padding: 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .form_cont button{
+    padding: 5px;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .titulo_con{
+    margin-top: 110px;
+  }
+  /*-------*/
+  
+  
+  
+  
+  #footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .top {
+    background-color: rgba(255, 217, 0, 0.281);
+    width: 100%;
+    height: 40px;
+  }
+  
+  .top ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .top ul li {
+    margin-top: 10px;
+    padding: 0px 78px;
+  }
+  
+  .top ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .top ul li a:hover {
+    color: rgba(255, 217, 0, 0.281);
+  }
+  
+  .botom {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: gray;
+  }
+  
+  .botom ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .botom ul li {
+    margin-top: 15px;
+    padding: 0px 70px;
+  }
+  
+  .botom ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: gray;
+  }
+  
+  .botom ul li a :hover {
+    color: rgba(255, 217, 0, 0.281);
+  }
+  
+  /*------------FOOTER--------*/
+/*footer*/
+
+footer {
+  background-color: #000;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(211, 207, 207);
+  opacity: 0.9;
+}
+
+/*efectos del hover en los iconos*/
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5;
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -ms-transition: 0.5;
+  -o-transition: 0.5;
+}
+
+.socialIcons a:hover {
+  color: rgb(237, 29, 29);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+/*----------FIN FOOTER-----------*/

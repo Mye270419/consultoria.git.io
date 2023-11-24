@@ -1,0 +1,223 @@
+
+
+.altura-a-b{
+    padding: 100px 0;
+}
+/*contacto*/
+.form_cont{
+    margin-top: 10em;
+  }
+.contact_form h2{
+    margin-left: 200px;
+    background: none repeat scroll 00#F3F3F3;
+    border-radius: 5px;
+    color:  rgb(190, 162, 0);
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*---estilos para los ul y li del formulario---*/
+.contact_form ul {
+    width: 750px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.contact_form li{
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.contact_form label{
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input{
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+}
+.contact_form textarea{
+    padding: 8px;
+    width: 300px;
+}
+.contact_form button{
+    margin-left: 90px;
+    padding: 7px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: gold;
+}
+.form_cont{
+    margin-left: 60px;
+    border: 2px solid gold;
+    margin-right: 2em;
+}
+.mapa{
+
+    float: right;
+    margin-top: -435px;
+    margin-right: 33px;
+}
+
+
+
+/*footer*/
+/*pie de pagina*/
+#footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .top {
+    background-color: rgba(255, 217, 0, 0.281);
+    width: 100%;
+    height: 40px;
+  }
+  
+  .top ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .top ul li {
+    margin-top: 10px;
+    padding: 0px 78px;
+  }
+  
+  .top ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .top ul li a:hover {
+    color: rgba(255, 217, 0, 0.281);
+  }
+  
+  .botom {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: gray;
+  }
+  
+  .botom ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .botom ul li {
+    margin-top: 15px;
+    padding: 0px 70px;
+  }
+  
+  .botom ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: gray;
+  }
+  
+  .botom ul li a :hover {
+    color: rgba(255, 217, 0, 0.281);
+  }
+
+  /*------------FOOTER--------*/
+/*footer*/
+
+footer {
+    background-color: #000;
+  }
+  
+  .footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+  
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .socialIcons a i {
+    font-size: 2em;
+    color: rgb(211, 207, 207);
+    opacity: 0.9;
+  }
+  
+  /*efectos del hover en los iconos*/
+  .socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+  }
+  
+  .socialIcons a:hover {
+    color: rgb(237, 29, 29);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  .footerNav {
+    margin: 30px 0;
+  }
+  
+  .footerNav ul {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover {
+    opacity: 1;
+  }
+  
+  /*----------FIN FOOTER-----------*/

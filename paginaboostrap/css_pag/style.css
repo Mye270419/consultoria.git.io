@@ -1,0 +1,126 @@
+body{
+    background-color: #111;
+    color: aliceblue;
+}
+
+.banner-video{      /*simplemente copiar no hay mucha ciencia aqui*/
+    background-image:url("/images/razones.jpeg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+a{
+    color: gold;
+}
+
+.banner-video img{
+    width: 80px;
+    height: 80px;
+position: relative;
+text-align: center;
+}
+.altura-a-b{
+padding: 100px 0;/*para dar sepracion a las secciones */ 
+}
+
+
+
+
+#barra_sup{
+border-radius: 15px;
+
+}
+#barra_sup a{
+ 
+padding: 15px;
+font-size: 1.2em;
+}
+.lista_header{
+    margin-left: 50em;
+}
+img>.carousel-item{
+    padding: 150 2000px;
+
+}
+/*FOOTER--------*/
+/*footer*/
+
+footer {
+    background-color: #000;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: rgb(211, 207, 207);
+    opacity: 0.9;
+}
+
+/*efectos del hover en los iconos*/
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transit/*------------ion: 0.5;
+    -o-transition: 0.5;
+}
+
+.socialIcons a:hover {
+    color: rgb(237, 29, 29);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+/*----------FIN FOOTER-----------*/
